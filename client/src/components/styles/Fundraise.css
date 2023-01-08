@@ -1,0 +1,75 @@
+.BoxContainer{
+    max-width: 1690px;
+    padding-bottom: 25px;
+    column-gap: 5px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+  
+  }
+  
+.Banner {
+margin-top: -10px;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;;
+}
+.contentWrap {
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+.profileP{
+    width: 80px;
+    height: 80px;
+    border-radius: 200px;
+    margin-top: 50px;
+    margin-left: -330px;
+    position: absolute;
+    object-fit: cover;
+    background-color: white;
+    border: solid 5px white;
+
+   
+}
+
+.NameBox {
+    margin-top: 50px;
+
+}
+  
+  .Box {
+    background-color: white;
+ 
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.376);
+
+  }
+  
+  .Box:hover {
+    background-color: white;
+    
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.376);
+    transform: scale(01.01);
+    transition: .3s ease-in-out;
+
+  }
+  
+
+  .button {
+    text-transform: none;
+    margin-left: 10px;
+    margin-top: 3.5px;
+    font-size: small;
+    padding: 0px 3px;
+    cursor: pointer;
+    color: blue;
+    font-weight: 600;
+    
+
+  }

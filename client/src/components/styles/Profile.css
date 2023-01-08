@@ -1,0 +1,171 @@
+.icon2 {
+    width: 20px;
+    vertical-align: -5px;
+}
+
+.textWraped {
+    padding-bottom: 30px;
+    margin-top: 48px;
+}
+
+.buttonsWraper {
+    display: flex;
+    column-gap: 40px;
+    margin-top: 50px;
+}
+
+.bg{
+    background-color: rgb(238, 236, 236);
+    padding: 10px;
+    border-radius: 5px;
+    padding-bottom: 0px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.profileColumn {
+    width: 100%;
+    min-width: 370px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 30px;
+
+    }
+    .ProfilePosition::before {
+        content: " @";
+      }
+    .position {
+        margin-left: 6px;
+        
+    }
+
+
+
+    .Edit {
+        margin-left: 50px;
+        background-color: rgb(33, 33, 164);
+        color: aliceblue;
+        padding: 5px;
+        margin-top: -6px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+.NameBox {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.intro {
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+flex: 1;
+text-align: center;
+padding-top: 10px;
+max-height: 500px;
+margin-bottom: 0;
+height: 30px;
+ margin-top: 10px;
+ border-radius: 5px;
+  margin-left: 20px;
+
+}
+
+
+
+
+
+.introWrap{
+    flex: 1;
+    text-align: center;
+}
+
+    .profilePic {
+        width: 100px;
+        height: 100px;
+        border-radius: 200px;
+        margin-top: 80px;
+        margin-left: 20px;
+        position: absolute;
+        object-fit: cover;
+    }
+
+    .profileContainer {
+        padding-bottom: 150px;
+
+    }
+
+    .selectors{
+        padding: 5px;
+      }
+      .selector {
+        color: rgb(255, 255, 255);
+        padding: 5px;
+        text-decoration: none;
+        border-radius: 5px;
+        background-color: blue;
+      }
+    .Invest {
+        margin-left: 50px;
+        background-color: rgb(33, 164, 57);
+        color: aliceblue;
+        padding: 5px;
+        margin-top: -6px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+.VideoPlayer{
+    z-index: 2 !important;
+}
+.video {
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 90%;
+    margin-left: 22px;
+    height: 280px;
+
+
+}
+
+.videoD {
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 90%;
+    margin-left: 22px;
+    height: 280px;
+    margin-top: 10px;
+
+
+}
+
+.Upload {
+    width: 80px;
+  }
+
+  .uploadWrap {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 5px;
+    margin-left: 20px;
+    
+
+  }
+
+  .profilePosts {
+    margin-top: 10px;
+  }
+
+ .posts {
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 380px;
+        scrollbar-color: #6969dd #e0e0e0;
+        scrollbar-width: thin;
+      
+
+ }
