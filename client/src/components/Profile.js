@@ -101,6 +101,7 @@ const Profile = () => {
         </div>
         <div className="posts">
           {posts.map(function (post, i) {
+           if (post?._id == _id)
             return <Post post={post} key={post?._id || i} />;
           })}
         </div>
